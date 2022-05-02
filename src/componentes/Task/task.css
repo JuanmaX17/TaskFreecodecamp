@@ -1,0 +1,51 @@
+.task{
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(183, 195, 255);
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 10px;
+    min-height: 70px;
+    width: 94%;
+    max-width: 600px;
+    border: 1.8px solid rgb(32, 37, 61);
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+.task p{
+    overflow-wrap: anywhere;
+    font-size: 1.3rem;
+    margin-left: 30px;
+    
+}
+
+
+.icon{
+    
+    font-size: 25px !important;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.icon:hover{
+    color: rgb(255, 0, 0);
+    
+}
+
+
+.complete{
+    background-color: rgba(145, 75, 211, 0.863);
+    box-shadow: 1px 1px 10px 1px rgb(193, 126, 255);
+    text-decoration: line-through;
+}
+
+.task__text{
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
